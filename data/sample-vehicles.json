@@ -1,0 +1,29 @@
+[
+  {
+    "vehicleId": "VH001",
+    "capacity": 15,
+    "currentLocation": {
+      "type": "Point",
+      "coordinates": [77.5946, 12.9716]
+    },
+    "available": true
+  },
+  {
+    "vehicleId": "VH002",
+    "capacity": 12,
+    "currentLocation": {
+      "type": "Point",
+      "coordinates": [77.6271, 12.9279]
+    },
+    "available": true
+  },
+  {
+    "vehicleId": "VH003",
+    "capacity": 10,
+    "currentLocation": {
+      "type": "Point",
+      "coordinates": [77.6412, 12.9719]
+    },
+    "available": true
+  }
+]

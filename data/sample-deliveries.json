@@ -1,0 +1,62 @@
+[
+  {
+    "address": "MG Road, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.5946, 12.9716]
+    },
+    "priority": 1,
+    "timeWindow": {
+      "start": "2024-01-15T09:00:00Z",
+      "end": "2024-01-15T17:00:00Z"
+    }
+  },
+  {
+    "address": "Whitefield, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.7499, 12.9698]
+    },
+    "priority": 2,
+    "timeWindow": {
+      "start": "2024-01-15T10:00:00Z",
+      "end": "2024-01-15T18:00:00Z"
+    }
+  },
+  {
+    "address": "Koramangala, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.6271, 12.9279]
+    },
+    "priority": 1,
+    "timeWindow": {
+      "start": "2024-01-15T09:30:00Z",
+      "end": "2024-01-15T16:30:00Z"
+    }
+  },
+  {
+    "address": "Indiranagar, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.6412, 12.9719]
+    },
+    "priority": 3,
+    "timeWindow": {
+      "start": "2024-01-15T11:00:00Z",
+      "end": "2024-01-15T19:00:00Z"
+    }
+  },
+  {
+    "address": "Electronic City, Bengaluru",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.6648, 12.8456]
+    },
+    "priority": 2,
+    "timeWindow": {
+      "start": "2024-01-15T08:00:00Z",
+      "end": "2024-01-15T15:00:00Z"
+    }
+  }
+]

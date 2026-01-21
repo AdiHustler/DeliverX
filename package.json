@@ -1,0 +1,28 @@
+{
+  "name": "ai-route-planner",
+  "version": "1.0.0",
+  "description": "AI-Based Dynamic Delivery Route Planner",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "seed-data": "node seed-data.js",
+    "start-backend": "cd server && npm start",
+    "start-frontend": "cd client && npm start",
+    "start-java": "cd optimizer-java && mvn spring-boot:run",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "mongoose": "^7.5.0"
+  },
+  "keywords": [
+    "ai",
+    "route-optimization",
+    "delivery",
+    "mapbox",
+    "or-tools",
+    "mongodb"
+  ],
+  "author": "AI Route Team",
+  "license": "MIT"
+}
