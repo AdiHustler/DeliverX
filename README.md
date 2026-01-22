@@ -24,7 +24,7 @@ Frontend (React + Mapbox) ↔ Backend (Node.js) ↔ Java OR-Tools ↔ AI Predict
 - Java 11+
 - Maven 3.6+
 - MongoDB 4.4+
-- Mapbox API Token
+- Leaflet + OpenStreetMap
 - OpenAI API Key (optional)
 
 ## 🛠️ Installation
@@ -192,33 +192,9 @@ npm run build
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Troubleshooting
-
 ### Common Issues
 
 1. **Mapbox not loading**: Check API token and network connectivity
 2. **OR-Tools errors**: Ensure Java 11+ and Maven are properly installed
 3. **MongoDB connection**: Verify MongoDB is running and connection string is correct
 4. **CORS errors**: Check backend CORS configuration
-
-### Performance Tips
-
-- Use MongoDB indexes for geospatial queries
-- Implement caching for frequently accessed routes
-- Optimize distance matrix calculations
-- Use WebSocket connection pooling
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the troubleshooting section
-- Review the API documentation
-
----
-
-**Built with ❤️ using React, Node.js, Java OR-Tools, and MongoDB**
