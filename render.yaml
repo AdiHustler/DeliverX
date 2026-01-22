@@ -3,7 +3,7 @@ services:
     name: deliverx-ai-route
     env: node
     plan: free
-    buildCommand: npm install && cd client && npm install --legacy-peer-deps && npm run build
+    buildCommand: npm install && npm run build
     startCommand: node serve.js
     envVars:
       - key: NODE_ENV
@@ -11,4 +11,4 @@ services:
       - key: PORT
         value: 10000
       - key: FORCE_REDEPLOY
-        value: "true"
+        value: "v2"
