@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: deliverx-ai-route
+    env: node
+    plan: free
+    buildCommand: cd client && npm install && npm run build
+    startCommand: node serve.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
