@@ -2,10 +2,11 @@
   "name": "deliverx",
   "version": "1.0.0",
   "description": "AI-Based Dynamic Delivery Route Planner",
-  "main": "server.js",
+  "main": "serve.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "cd client && npm install --legacy-peer-deps && npm run build"
+    "start": "node serve.js",
+    "build": "npm install && cd client && npm install --legacy-peer-deps && npm run build",
+    "postinstall": "cd client && npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
     "express": "^4.18.2",
